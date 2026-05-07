@@ -193,7 +193,28 @@ export const dummyShowsData = [
         "vote_average": 7.443,
         "vote_count": 23569,
         "runtime": 127,
-    }
+    },
+     {
+        "_id": "950387",
+        "id": 950387,
+        "title": "A Minecraft Movie",
+        "overview": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+        "poster_path": "https://image.tmdb.org/t/p/original/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+        "genres": [
+            { "id": 10751, "name": "Family" },
+            { "id": 35, "name": "Comedy" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 14, "name": "Fantasy" }
+        ],
+        "casts": dummyCastsData,
+        "release_date": "2025-03-31",
+        "original_language": "en",
+        "tagline": "Be there and be square.",
+        "vote_average": 6.516,
+        "vote_count": 15225,
+        "runtime": 101,
+    },
 ]
 
 export const dummyDateTimeData = {
