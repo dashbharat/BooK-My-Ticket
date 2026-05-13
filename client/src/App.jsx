@@ -23,7 +23,7 @@ function App() {
         <Route path='/movies' element={<Movies />} />
         <Route path='/movies/:id' element={<MovieDetails />}/>
         <Route path='/movies/:id/:date' element={<SeatLayout />} />
-        <Route path='/MyBookings' element={<MyBookings />} />
+        <Route path='/my-bookings' element={<MyBookings />} />
         <Route path='/Favorite' element={<Favorite />} />
       </Routes>
       {!isAdminRoute && < Footer/>}
